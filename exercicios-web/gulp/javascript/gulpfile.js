@@ -13,7 +13,7 @@ function transformacaoJS(callback) {
     }))
     .pipe(uglify())
     .on("error", err => console.error(err))
-    .pipe(concat('cadigo.min.js'))
+    .pipe(concat('codigo.min.js'))
     .pipe(gulp.dest('build'))
 }
 
