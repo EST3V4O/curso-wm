@@ -1,11 +1,11 @@
+import Layout from "../components/Layout";
 import Cabecalho from "../components/Cabecalho";
 
 export default function Exemplo() {
-  // props é somente leitura
   return (
-    <>
+    <Layout titulo="Usando Componentes" >
       <Cabecalho titulo="Next.js & React" />
       <Cabecalho titulo="Apreenda Next na prática " />
-    </>
+    </Layout>
   )
 }
